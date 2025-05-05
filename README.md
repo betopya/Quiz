@@ -7,12 +7,14 @@ This is a simple quiz application built with React.
 - Timer for quiz
 - Score tracking
 
-## Installation
+## Usage
+The project is live on GitHub Pages at: [Quiz](https://betopya.github.io/Quiz/)
 
-Clone the repository:
-
-bash
-git clone https://github.com/betopya/Quiz.git
+## Development
+To run the project locally:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/betopya/Quiz.git
 
 
 
