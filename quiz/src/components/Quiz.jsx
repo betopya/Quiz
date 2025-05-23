@@ -36,6 +36,8 @@ const Quiz = () => {
     },
   ];
 
+
+
   useEffect(() => {
     if (timeLeft > 0 && !showResults) {
       const timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
