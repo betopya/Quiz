@@ -36,8 +36,6 @@ const Quiz = () => {
     },
   ];
 
-
-
   useEffect(() => {
     if (timeLeft > 0 && !showResults) {
       const timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
@@ -51,9 +49,9 @@ const Quiz = () => {
   const handleAnswer = (selectedAnswer) => {
     if (selectedAnswer === questions[questionIndex].correctAnswer) {
       setScore(score + 1);
-      setFeedback("Correct! ✅");
+      setFeedback("Correct! ");
     } else {
-      setFeedback("Wrong! ❌");
+      setFeedback("Wrong! ");
     }
 
     setTimeout(handleNextQuestion, 1000); 
