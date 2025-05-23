@@ -1,5 +1,3 @@
-import React from "react";
-
 const Question = ({ questionData, handleAnswer, timeLeft }) => {
   return (
     <div className="question-container">
